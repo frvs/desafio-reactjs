@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const User = () => (
   <div>
     <section>
@@ -22,6 +24,11 @@ const User = () => (
       </div>
       <div>
         <p>twitter</p>
+      </div>
+      <div>
+        <button>
+          <Link to="/">Voltar</Link>
+        </button>
       </div>
     </section>
     <section>
